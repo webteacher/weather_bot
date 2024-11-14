@@ -26,7 +26,7 @@ async def get_location(update,context):
     
 # Основна частина програми
 if __name__ == '__main__':
-    application = ApplicationBuilder().token(settings.TOKEN).build()
+    application = ApplicationBuilder().token(settings"7347148528:AAF7UELcx96pl-5NIqHId3-mNWOP0GAMbs8").build()
 
     # Додаємо обробник для команди /start
     application.add_handler(CommandHandler('start', start))
